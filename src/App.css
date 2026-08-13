@@ -1,0 +1,415 @@
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  width: 100%;
+  margin: 0;
+  padding: 24px 16px 32px;
+  box-sizing: border-box;
+}
+
+.measurement-layer {
+  position: fixed;
+  top: -20000px;
+  left: 0;
+  visibility: hidden;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.songTitle {
+  color: rgb(205, 51, 51);
+  text-decoration: underline;
+}
+
+.measurement-page {
+  box-shadow: none;
+  border: none;
+}
+
+.measurement-page .section-card {
+  animation: none;
+}
+
+.paper-page {
+  width: 8.5in;
+  height: 11in;
+  background: #fff;
+  border: 1px solid #cbc4b8;
+  box-shadow: 0 28px 68px rgba(48, 46, 43, 0.22);
+  padding: 0.4in;
+  overflow: hidden;
+}
+
+.song-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: 0.3in;
+  height: 100%;
+}
+
+.song-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 0;
+}
+
+.editor-panel {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid #cfcfcb;
+  border-radius: 18px;
+  padding: 18px;
+  box-shadow: 0 8px 32px rgba(53, 49, 43, 0.08);
+  position: sticky;
+  top: 20px;
+}
+
+.editor-header h1 {
+  margin: 0;
+  font-size: clamp(1.3rem, 2.2vw, 1.75rem);
+  letter-spacing: 0.03em;
+}
+
+.editor-header p {
+  margin: 6px 0 18px;
+  color: var(--muted-text);
+  font-size: 0.9rem;
+}
+
+.editor-panel label {
+  display: block;
+  font-weight: 600;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  margin-bottom: 8px;
+}
+
+.editor-panel textarea {
+  width: 100%;
+  min-height: 440px;
+  resize: vertical;
+  border: 1px solid #d4d4cf;
+  border-radius: 12px;
+  padding: 12px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  background: #f9f8f4;
+  color: #26231f;
+  box-sizing: border-box;
+}
+
+.editor-panel button {
+  border: 1px solid #26231f;
+  background: #26231f;
+  color: #f7f4ee;
+  padding: 9px 14px;
+  border-radius: 10px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  transition:
+    transform 140ms ease,
+    box-shadow 140ms ease;
+}
+
+.editor-panel button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px rgba(32, 28, 24, 0.16);
+}
+
+.editor-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.editor-actions p {
+  margin: 0;
+  color: var(--muted-text);
+  font-size: 0.84rem;
+}
+
+.error-text {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 9px;
+  background: #ffeaea;
+  color: #862b2b;
+  font-size: 0.82rem;
+}
+
+.song-header-card {
+  display: block;
+  width: 100%;
+  margin: 0;
+  background: #fff;
+  border: 1px solid #cecdc7;
+  border-radius: 14px;
+  padding: 14px 16px 14px;
+  box-shadow: none;
+  min-height: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.song-header-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    rgba(138, 132, 120, 0.13) 1px,
+    transparent 0
+  );
+  background-size: 16px 16px;
+  opacity: 0.24;
+  pointer-events: none;
+}
+
+.chart-top,
+.order-row,
+.song-picker,
+.sections-grid,
+.chart-footer {
+  position: relative;
+  z-index: 1;
+}
+
+.chart-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.chart-top h2 {
+  margin: 0;
+  font-size: clamp(1.15rem, 1.6vw, 1.6rem);
+  letter-spacing: 0.01em;
+}
+
+.chart-top p {
+  margin: 3px 0 0;
+  color: var(--muted-text);
+  font-size: 0.88rem;
+}
+
+.setlist-rank {
+  margin-top: 6px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #5d574f;
+}
+
+.chart-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px 16px;
+  text-align: right;
+  font-size: 0.92rem;
+}
+
+.chart-meta p {
+  margin: 0;
+  font-weight: 600;
+  color: #4f4a43;
+}
+
+.chart-meta span {
+  color: #8f887f;
+}
+
+.order-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin: 18px 0;
+}
+
+.order-row span {
+  width: 33px;
+  height: 33px;
+  border: 2px solid #a6a29d;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: #27231f;
+  background: #fff;
+}
+
+.section-total {
+  margin: 0 0 16px;
+  font-size: 0.83rem;
+  color: #6c675f;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.song-picker {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.song-picker label,
+.song-picker p {
+  margin: 0;
+  font-size: 0.83rem;
+  color: #6c675f;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.song-picker select {
+  border: 1px solid #cfcfc8;
+  border-radius: 9px;
+  background: #fcfbf8;
+  color: #26231f;
+  padding: 8px 10px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 0.9rem;
+}
+
+.sections-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.section-card {
+  background: #fdfdfc;
+  border: 1.8px solid #b6b2ac;
+  border-radius: 16px;
+  padding: 10px 14px 12px;
+  animation: rise-in 420ms ease both;
+  animation-delay: var(--delay, 0ms);
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.section-badge {
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  border: 2px solid #9f9c96;
+  display: grid;
+  place-items: center;
+  font-size: 0.84rem;
+  font-weight: 700;
+  background: #fff;
+}
+
+.section-header h3 {
+  margin: 0;
+  font-size: 1.15rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+.section-header h3::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #c4c1bb;
+}
+
+.section-chords p {
+  margin: 2px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: clamp(1.1rem, 1.7vw, 1.35rem);
+  font-weight: 700;
+  color: #141312;
+}
+
+.chart-footer {
+  margin-top: 20px;
+}
+
+.chart-footer p {
+  margin: 0;
+  text-align: right;
+  color: #8e877d;
+  font-size: 0.82rem;
+  letter-spacing: 0.03em;
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media print {
+  @page {
+    size: Letter portrait;
+    margin: 0;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  .app-shell {
+    padding: 0;
+    gap: 0;
+  }
+
+  .paper-page {
+    width: 8.5in;
+    height: 11in;
+    border: none;
+    box-shadow: none;
+    padding: 0.4in;
+    break-after: page;
+    page-break-after: always;
+  }
+
+  .paper-page:last-child {
+    break-after: auto;
+    page-break-after: auto;
+  }
+
+  .song-columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    height: 100%;
+    gap: 0.3in;
+  }
+
+  .song-header-card {
+    box-shadow: none;
+  }
+}
