@@ -638,128 +638,39 @@ export const songArray = [
       {
         code: "C",
         label: "CHORUS",
-        chords: [["E"], ["B", "Cdim", "C#m"], ["Cdim"]],
-      },
-
-      {
-        code: "V2",
-        label: "VERSE 2",
-        chords: [["C#m"], ["E", "B", "G#m", "A"]],
-      },
-      {
-        code: "P",
-        label: "PRE-CHORUS 2",
         chords: [
-          ["G#m", "A"],
-          ["C#m", "Eb"],
-        ],
-      },
-
-      {
-        code: "B",
-        label: "BRIDGE",
-        chords: [
-          ["A", "B"],
-          ["C#m", "A", "B", "B"],
-          ["C#m", "A", "B", "B"],
-          ["C#m", "A", "B", "B"],
-          ["C#m", "A", "B", "B"],
-        ],
-      },
-
-      {
-        code: "O",
-        label: "OUTRO",
-        chords: [["C#m"]],
-      },
-    ],
-  },
-  {
-    songTitle: "Love Drunk",
-    artist: "Boys Like Girls",
-    setlistOrder: 8,
-
-    chartMeta: {
-      page: "1/1",
-      key: "D#",
-      tempo: 145,
-      timeSignature: "4/4",
-    },
-
-    order: ["I", "V1", "C", "V2", "C", "B", "C2", "O"],
-
-    sections: [
-      {
-        code: "I",
-        label: "INTRO",
-        chords: [
-          ["D#", "A#", "G#"],
-          ["D#", "A#", "G#", "A#"],
-        ],
-      },
-
-      {
-        code: "V1",
-        label: "VERSE 1",
-        chords: [
-          ["D#", "G#"],
-          ["F", "G#", "A#"],
-          ["D#", "G#"],
-          ["F", "A#"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["C", "G#", "D#", "A#"],
-          ["C", "G#", "D#", "A#"],
-          ["G#", "A#", "C", "A#"],
-          ["C", "G#", "D#", "A#"],
+          ["E"],
+          ["Cdim", "C#m"],
+          ["Cdim"],
+          ["E"],
+          ["B"],
+          ["Cdim", "C#m"],
+          ["Cdim"],
+          ["E"],
         ],
       },
 
       {
         code: "V2",
         label: "VERSE 2",
-        chords: [
-          ["D#", "G#"],
-          ["F", "G#", "A#"],
-          ["D#", "G#"],
-          ["F", "A#"],
-        ],
+        chords: [["C#m"], ["E", "B", "G#m", "A"], ["C#m", "B"], ["G#m", "A"]],
       },
 
       {
         code: "B",
         label: "BRIDGE",
         chords: [
-          ["G#", "D# (low)", "A#"],
-          ["G#", "D# (low)", "A#", "G#"],
-        ],
-      },
-
-      {
-        code: "C2",
-        label: "FINAL CHORUS",
-        chords: [
-          ["D", "A#", "F", "C"],
-          ["D", "A#", "F", "C"],
-          ["A#", "C", "D", "C"],
-          ["D", "A#", "F", "C"],
+          ["C#m", "A", "B", "B"],
+          ["C#m", "A", "B", "B"],
+          ["C#m", "A", "B", "B"],
+          ["C#m", "A", "B", "B", "E"],
         ],
       },
 
       {
         code: "O",
         label: "OUTRO",
-        chords: [
-          ["F", "C", "A#", "C"],
-          ["F", "C", "A#", "C"],
-          ["F", "C", "A#", "C"],
-          ["F", "C", "A#", "C", "F"],
-        ],
+        chords: [["C#m", "E", "B", "G#m", "A"]],
       },
     ],
   },

@@ -723,8 +723,8 @@ export const songArray = [
       {
         code: "V2",
         label: "VERSE 2",
-        chords: [
-          ["D#", "G#"],
+        chords: [[
+          [ ["D#", "G#"],
           ["F", "G#", "A#"],
           ["D#", "G#"],
           ["F", "A#"],
@@ -735,8 +735,8 @@ export const songArray = [
         code: "B",
         label: "BRIDGE",
         chords: [
-          ["G#", "D# (low)", "A#"],
-          ["G#", "D# (low)", "A#", "G#"],
+          ["D#", "A#", "G#", "D#"],
+          ["A#", "G#"],
         ],
       },
 
@@ -755,10 +755,11 @@ export const songArray = [
         code: "O",
         label: "OUTRO",
         chords: [
-          ["F", "C", "A#", "C"],
-          ["F", "C", "A#", "C"],
-          ["F", "C", "A#", "C"],
-          ["F", "C", "A#", "C", "F"],
+          ["F", "C", "A#", "F"],
+          ["C"],
+          ["A#"],
+          ["F", "C", "A#", "F"],
+          ["C", "A#", "F"],
         ],
       },
     ],
