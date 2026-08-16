@@ -211,7 +211,208 @@ export const songArray = [
       },
     ],
   },
+  {
+    songTitle: "Welcome to the Black Parade",
+    artist: "My Chemical Romance",
+    setlistOrder: 4,
 
+    chartMeta: {
+      page: "1/1",
+      key: "G",
+      tempo: 96,
+      timeSignature: "4/4",
+    },
+
+    order: [
+      "I",
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "I2",
+      "V5",
+      "V6",
+      "I3",
+      "V7",
+      "C",
+      "V8",
+      "C",
+      "B1",
+      "B2",
+      "S",
+      "C",
+      "O",
+    ],
+
+    sections: [
+      {
+        code: "I",
+        label: "INTRO",
+        chords: [["G", "D", "Em", "Bm"], ["C", "Bm"], ["Am"]],
+      },
+
+      {
+        code: "V1",
+        label: "VERSE 1",
+        chords: [
+          ["D", "G", "D"],
+          ["Em", "Bm", "C"],
+          ["Bm", "Am"],
+        ],
+      },
+
+      {
+        code: "V2",
+        label: "VERSE 2",
+        chords: [
+          ["D", "G", "D"],
+          ["Em", "Bm", "C"],
+          ["Bm", "Am"],
+        ],
+      },
+
+      {
+        code: "V3",
+        label: "VERSE 3",
+        chords: [
+          ["D", "G", "D"],
+          ["Em", "Bm", "C"],
+          ["Bm", "Am"],
+        ],
+      },
+
+      {
+        code: "V4",
+        label: "VERSE 4",
+        chords: [
+          ["D", "G", "D"],
+          ["Em", "Bm", "C"],
+          ["Bm", "Am", "D"],
+        ],
+      },
+
+      {
+        code: "I2",
+        label: "INTERLUDE",
+        chords: [
+          ["G", "D", "Em", "Bm"],
+          ["C", "Bm", "Am"],
+        ],
+      },
+
+      {
+        code: "V5",
+        label: "VERSE 5",
+        chords: [
+          ["D", "G", "D"],
+          ["Em", "Bm", "C"],
+          ["Bm", "Am"],
+        ],
+      },
+
+      {
+        code: "V6",
+        label: "VERSE 6",
+        chords: [
+          ["D", "G", "D"],
+          ["Em", "Bm", "C"],
+          ["Bm", "Am", "D", "G"],
+        ],
+      },
+
+      {
+        code: "I3",
+        label: "INTERLUDE",
+        chords: [
+          ["G", "D", "Em", "D"],
+          ["C", "G/B"],
+        ],
+      },
+
+      {
+        code: "V7",
+        label: "VERSE 7",
+        chords: [
+          ["Am", "G", "D/F#", "F", "C"],
+          ["G", "D"],
+          ["G", "D/F#", "F", "C"],
+          ["G", "D"],
+          ["G"],
+        ],
+      },
+
+      {
+        code: "C",
+        label: "CHORUS",
+        chords: [
+          ["D/F#", "Em"],
+          ["D", "C"],
+          ["D", "G"],
+          ["D/F#", "Em"],
+          ["D", "C"],
+          ["D"],
+        ],
+      },
+
+      {
+        code: "V8",
+        label: "VERSE 8",
+        chords: [
+          ["G", "D/F#", "F", "C"],
+          ["G", "D"],
+          ["G", "D/F#"],
+          ["F", "C"],
+          ["G", "D"],
+          ["G"],
+        ],
+      },
+
+      {
+        code: "B1",
+        label: "BRIDGE 1",
+        chords: [
+          ["B", "Em"],
+          ["B", "Em"],
+          ["C", "D#", "Cm", "G"],
+        ],
+      },
+
+      {
+        code: "B2",
+        label: "BRIDGE 2",
+        chords: [
+          ["D/F#", "Em", "D", "C"],
+          ["G", "C", "D", "G"],
+          ["D/F#", "Em", "D", "C"],
+          ["G"],
+        ],
+      },
+
+      {
+        code: "S",
+        label: "SOLO",
+        chords: [
+          ["C", "D", "A"],
+          ["E/G#"],
+          ["F#m", "E", "D"],
+          ["A"],
+          ["E"],
+          ["A"],
+        ],
+      },
+
+      {
+        code: "O",
+        label: "OUTRO",
+        chords: [
+          ["A", "E/G#", "F#m", "E", "D"],
+          ["E", "A"],
+          ["E/G#", "F#m", "E", "D"],
+          ["E", "A"],
+        ],
+      },
+    ],
+  },
   {
     songTitle: "What's My Age Again?",
     artist: "blink-182",
@@ -307,7 +508,7 @@ export const songArray = [
 
     chartMeta: {
       page: "1/1",
-      key: "C",
+      key: "Db",
       tempo: 130,
       timeSignature: "4/4",
     },
@@ -318,17 +519,17 @@ export const songArray = [
       {
         code: "I",
         label: "INTRO",
-        chords: [["C", "G", "F", "G"]],
+        chords: [["Db", "Ab", "Gb", "Ab"]],
       },
 
       {
         code: "V1",
         label: "VERSE 1",
         chords: [
-          ["C", "G", "C", "F"],
-          ["C", "G", "F"],
-          ["C", "G", "C", "F"],
-          ["C", "G", "F"],
+          ["Db", "Ab", "Db", "Gb"],
+          ["Db", "Ab", "Gb"],
+          ["Db", "Ab", "Db", "Gb"],
+          ["Db", "Ab", "Gb"],
         ],
       },
 
@@ -336,8 +537,8 @@ export const songArray = [
         code: "P",
         label: "PRE-CHORUS",
         chords: [
-          ["Am", "F", "C"],
-          ["Am", "F", "G"],
+          ["Bbm", "Gb", "Db"],
+          ["Bbm", "Gb", "Ab"],
         ],
       },
 
@@ -345,10 +546,10 @@ export const songArray = [
         code: "C",
         label: "CHORUS",
         chords: [
-          ["C", "G", "F", "G"],
-          ["C", "G", "F", "Ab", "G"],
-          ["C", "G", "F", "G"],
-          ["C", "G", "F"],
+          ["Db", "Ab", "Gb", "Ab"],
+          ["Db", "Ab", "Gb", "A", "Ab"],
+          ["Db", "Ab", "Gb", "Ab"],
+          ["Db", "Ab", "Gb"],
         ],
       },
 
@@ -356,10 +557,10 @@ export const songArray = [
         code: "V2",
         label: "VERSE 2",
         chords: [
-          ["C", "G", "C", "F"],
-          ["C", "G", "F"],
-          ["C", "G", "C", "F"],
-          ["C", "G", "F"],
+          ["Db", "Ab", "Db", "Gb"],
+          ["Db", "Ab", "Gb"],
+          ["Db", "Ab", "Db", "Gb"],
+          ["Db", "Ab", "Gb"],
         ],
       },
 
@@ -367,8 +568,8 @@ export const songArray = [
         code: "B",
         label: "BRIDGE",
         chords: [
-          ["Am", "G", "F", "G"],
-          ["Am", "C", "G"],
+          ["Bbm", "Ab", "Gb", "Ab"],
+          ["Bbm", "Db", "Ab"],
         ],
       },
 
@@ -376,8 +577,8 @@ export const songArray = [
         code: "S",
         label: "SOLO",
         chords: [
-          ["C", "G", "C", "F"],
-          ["C", "G", "F"],
+          ["Db", "Ab", "Db", "Gb"],
+          ["Db", "Ab", "Gb"],
         ],
       },
 
@@ -391,10 +592,10 @@ export const songArray = [
         code: "O",
         label: "OUTRO",
         chords: [
-          ["C", "G", "F", "G"],
-          ["C", "G", "F", "G"],
-          ["C", "G", "F", "G"],
-          ["C", "G", "F", "G", "C"],
+          ["Db", "Ab", "Gb", "Ab"],
+          ["Db", "Ab", "Gb", "Ab"],
+          ["Db", "Ab", "Gb", "Ab"],
+          ["Db", "Ab", "Gb", "Ab", "Db"],
         ],
       },
     ],
@@ -626,16 +827,14 @@ export const songArray = [
         label: "CHORUS 2",
         chords: [
           ["D", "E", "G", "D"],
-          ["D", "E", "G", "D"],
-          ["D", "E", "G", "D"],
-          ["D", "E", "G"],
+        ["D", "E", "G", "D"],
         ],
       },
 
       {
-        code: "IN",
-        label: "INSTRUMENTAL",
-        chords: [["D on 1/4th Notes"]],
+        code: "B",
+        label: "BRIDGE",
+        chords: [["D"]],
       },
 
       {
@@ -652,147 +851,16 @@ export const songArray = [
         label: "SOLO",
         chords: [
           ["D", "C", "B", "C", "D"],
-          ["D", "C", "B", "C", "D"],
-          ["D", "C", "B", "C", "D"],
-          ["D", "C", "G"],
+          ["C", "B", "C", "D"],
+          ["C", "B", "C", "D"],
+          ["C", "B"],
         ],
       },
 
       {
         code: "O",
         label: "OUTRO",
-        chords: [["D", "C", "G"]],
-      },
-    ],
-  },
-  {
-    songTitle: "Welcome to the Black Parade",
-    artist: "My Chemical Romance",
-    setlistOrder: 10,
-
-    chartMeta: {
-      page: "1/1",
-      key: "G",
-      tempo: 96,
-      timeSignature: "4/4",
-    },
-
-    order: [
-      "I",
-      "V1",
-      "V2",
-      "V3",
-      "V4",
-      "I2",
-      "V5",
-      "V6",
-      "I3",
-      "V7",
-      "C",
-      "V8",
-      "C",
-      "B1",
-      "B2",
-      "S",
-      "C2",
-      "O",
-    ],
-
-    sections: [
-      {
-        code: "V1",
-        label: "VERSE 1",
-        chords: [["G", "F#m", "E", "D"], ["C", "B", "A", "D"], ["G"]],
-      },
-
-      {
-        code: "I",
-        label: "INTERLUDE",
-        chords: [
-          ["G", "F#m", "E", "D"],
-          ["C", "D"],
-        ],
-      },
-
-      {
-        code: "V2",
-        label: "VERSE 2",
-        chords: [
-          ["G", "F#m", "E", "C"],
-          ["C", "G", "D"],
-          ["G", "F#m", "E", "C"],
-          ["C", "G", "D"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["G", "F#m", "E", "D"],
-          ["C", "D"],
-          ["G", "F#m", "E", "D"],
-          ["C", "D"],
-        ],
-      },
-
-      {
-        code: "V3",
-        label: "VERSE 3",
-        chords: [
-          ["G", "F#m", "E", "C"],
-          ["C", "G", "D"],
-          ["G", "F#m", "E", "C"],
-          ["C", "G", "D"],
-        ],
-      },
-
-      {
-        code: "B1",
-        label: "BRIDGE 1",
-        chords: [["B", "Em"], ["B", "Em"], ["C"], ["D#", "D", "Cm", "Bb"]],
-      },
-
-      {
-        code: "B2",
-        label: "BRIDGE 2",
-        chords: [
-          ["G", "D/F#", "Em", "D", "C"],
-          ["G", "C", "D"],
-          ["G", "D/F#", "Em", "D", "C"],
-          ["G", "C", "D"],
-        ],
-      },
-      {
-        code: "B3",
-        label: "BRIDGE 3 - Key Change",
-        chords: [
-          ["A", "G#m", "F#m", "E"],
-          ["D", "A"],
-          ["E", "E (high oct)"],
-        ],
-      },
-      {
-        code: "C3",
-        label: "LAST CHORUS - Key Change",
-        chords: [
-          ["A", "G#m", "F#m", "E"],
-          ["D", "E"],
-          ["A", "G#m", "F#m", "E"],
-          ["D", "E"],
-        ],
-      },
-
-      {
-        code: "O/B",
-        label: "OUTRO / BRIDGE",
-        chords: [
-          ["A", "G#m", "F#m", "E"],
-          ["D", "E (Low)"],
-          ["A", "G#m", "F#m", "E"],
-          ["D", "E (Low)"],
-          ["A"],
-        ],
+        chords: [["D", "C", "B"]],
       },
     ],
   },
