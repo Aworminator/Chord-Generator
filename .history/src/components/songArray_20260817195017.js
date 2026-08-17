@@ -2529,7 +2529,7 @@ export const songArray = [
         code: "O",
         label: "OUTRO",
         chords: [
-          ["c", "F", "Am", "G"],
+          ["C", "F", "Am", "G"],
           ["C", "F", "Am", "G"],
           ["C", "F", "Am", "G"],
           ["C", "F", "Am", "G"],

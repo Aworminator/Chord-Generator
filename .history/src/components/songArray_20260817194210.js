@@ -2403,20 +2403,10 @@ export const songArray = [
         code: "V3",
         label: "VERSE 3",
         chords: [
+          ["Cm", "Gm/F", "Ab", "Bb", "Cm"],
           ["Ab", "Bb", "Cm"],
           ["Ab", "Bb", "Cm"],
           ["Ab", "Bb", "Cm", "Eb"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["Ab", "Eb", "Cm", "Bb"],
-          ["Ab", "Eb", "Bb"],
-          ["Cm", "Bb", "Cm", "Bb"],
-          ["Ab", "Eb", "Bb"],
         ],
       },
 
@@ -2435,104 +2425,8 @@ export const songArray = [
         code: "B3",
         label: "BRIDGE",
         chords: [
-          ["Ab", "Bb", "Cm", "Gm"],
-          ["Ab", "Bb", "Cm", "Gm"],
-        ],
-      },
-    ],
-  },
-
-  {
-    songTitle: "Mr. Brightside",
-    artist: "The Killers",
-    setlistOrder: 29,
-
-    chartMeta: {
-      page: "1/1",
-      key: "C",
-      tempo: 148,
-      timeSignature: "4/4",
-    },
-
-    order: ["I", "V1", "P", "C", "B", "V2", "P", "C", "B", "O"],
-
-    sections: [
-      {
-        code: "V1",
-        label: "VERSE 1",
-        chords: [
-          ["C", "G/B", "F"],
-          ["C", "G/B", "F"],
-          ["C", "G/B", "F"],
-        ],
-      },
-
-      {
-        code: "P",
-        label: "PRE-CHORUS",
-        chords: [
-          ["Am", "G", "F"],
-          ["Am", "G", "F"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-        ],
-      },
-
-      {
-        code: "B",
-        label: "BRIDGE",
-        chords: [
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-        ],
-      },
-
-      {
-        code: "V2",
-        label: "VERSE 2",
-        chords: [
-          ["C", "G/B", "F"],
-          ["C", "G/B", "F"],
-          ["C", "G/B", "F"],
-        ],
-      },
-      {
-        code: "P",
-        label: "PRE-CHORUS",
-        chords: [
-          ["Am", "G", "F"],
-          ["Am", "G", "F"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-        ],
-      },
-
-      {
-        code: "O",
-        label: "OUTRO",
-        chords: [
-          ["c", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
+          ["Ab", "Bb", "Cm", "Gm/F"],
+          ["Ab", "Bb", "Cm", "Gm/F"],
         ],
       },
     ],

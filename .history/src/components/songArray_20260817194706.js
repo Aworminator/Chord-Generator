@@ -2457,6 +2457,7 @@ export const songArray = [
     order: ["I", "V1", "P", "C", "B", "V2", "P", "C", "B", "O"],
 
     sections: [
+
       {
         code: "V1",
         label: "VERSE 1",
@@ -2505,31 +2506,12 @@ export const songArray = [
           ["C", "G/B", "F"],
         ],
       },
-      {
-        code: "P",
-        label: "PRE-CHORUS",
-        chords: [
-          ["Am", "G", "F"],
-          ["Am", "G", "F"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-        ],
-      },
 
       {
         code: "O",
         label: "OUTRO",
         chords: [
-          ["c", "F", "Am", "G"],
+          ["G", "C", "F", "Am", "G"],
           ["C", "F", "Am", "G"],
           ["C", "F", "Am", "G"],
           ["C", "F", "Am", "G"],

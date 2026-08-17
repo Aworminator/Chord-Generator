@@ -2268,273 +2268,83 @@ export const songArray = [
   },
 
   {
-    songTitle: "In the End",
-    artist: "Linkin Park",
-    setlistOrder: 27,
+  songTitle: "In the End",
+  artist: "Linkin Park",
+  setlistOrder: 27,
 
-    chartMeta: {
-      page: "1/1",
-      key: "Fm",
-      tempo: 105,
-      timeSignature: "4/4",
-    },
-
-    order: ["I", "V1", "C", "V2", "C", "B", "C", "O"],
-
-    sections: [
-      {
-        code: "V1",
-        label: "VERSE 1",
-        chords: [
-          ["Fm", "D#", "C#", "D#"],
-          ["Fm", "D#", "C#", "D#"],
-          ["Fm", "D#", "C#", "D#"],
-          ["Fm", "D#", "C#", "Fm"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["Fm", "G#"],
-          ["D#", "C#"],
-          ["Fm", "G#"],
-          ["D#", "C#"],
-        ],
-      },
-
-      {
-        code: "V2",
-        label: "VERSE 2",
-        chords: [
-          ["Fm", "D#", "C#", "D#"],
-          ["Fm", "D#", "C#", "D#"],
-          ["Fm", "D#", "C#", "D#"],
-          ["Fm", "D#", "C#", "Fm"],
-        ],
-      },
-
-      {
-        code: "B",
-        label: "BRIDGE",
-        chords: [
-          ["Fm", "D#", "C#", "D#"],
-          ["Fm", "D#", "C#", "D#"],
-          ["Fm", "G#", "D#", "C#"],
-          ["Fm", "G#", "D#", "C#"],
-        ],
-      },
-
-      {
-        code: "O",
-        label: "OUTRO",
-        chords: [["Fm", "D#", "C#", "D#"], ["Fm", "D#", "C#", "D#"], ["Fm"]],
-      },
-    ],
+  chartMeta: {
+    page: "1/1",
+    key: "Fm",
+    tempo: 105,
+    timeSignature: "4/4",
   },
 
-  {
-    songTitle: "That's What You Get",
-    artist: "Paramore",
-    setlistOrder: 28,
+  order: [
+    "I",
+    "V1",
+    "C",
+    "V2",
+    "C",
+    "B",
+    "C",
+    "O",
+  ],
 
-    chartMeta: {
-      page: "1/1",
-      key: "Ab",
-      tempo: 150,
-      timeSignature: "4/4",
+  sections: [
+
+    {
+      code: "V1",
+      label: "VERSE 1",
+      chords: [
+        ["Fm", "D#", "C#", "D#"],
+        ["Fm", "D#", "C#", "D#"],
+        ["Fm", "D#", "C#", "D#"],
+        ["Fm", "D#", "C#", "Fm"],
+      ],
     },
 
-    order: ["I", "V1", "B1", "V2", "C", "B2", "V3", "C", "I2", "B3", "C"],
-
-    sections: [
-      {
-        code: "I",
-        label: "INTRO",
-        chords: [
-          ["Ab", "Bb", "Cm", "G"],
-          ["Ab", "Bb", "Cm", "G"],
-        ],
-      },
-
-      {
-        code: "V1",
-        label: "VERSE 1",
-        chords: [
-          ["Ab", "Bb", "Cm"],
-          ["Ab", "Bb", "Cm"],
-        ],
-      },
-
-      {
-        code: "B1",
-        label: "BRIDGE",
-        chords: [["Ab", "Bb", "Cm"]],
-      },
-
-      {
-        code: "V2",
-        label: "VERSE 2",
-        chords: [
-          ["Ab", "Bb", "Cm"],
-          ["Ab", "Bb", "Cm", "Eb"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["Ab", "Eb", "Cm", "Bb"],
-          ["Ab", "Eb", "Bb"],
-          ["Cm", "Bb", "Cm", "Bb"],
-          ["Ab", "Eb", "Bb"],
-        ],
-      },
-
-      {
-        code: "B2",
-        label: "BRIDGE",
-        chords: [["Ab", "Bb", "Cm", "Gm/F", "Ab"], ["Bb"]],
-      },
-
-      {
-        code: "V3",
-        label: "VERSE 3",
-        chords: [
-          ["Ab", "Bb", "Cm"],
-          ["Ab", "Bb", "Cm"],
-          ["Ab", "Bb", "Cm", "Eb"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["Ab", "Eb", "Cm", "Bb"],
-          ["Ab", "Eb", "Bb"],
-          ["Cm", "Bb", "Cm", "Bb"],
-          ["Ab", "Eb", "Bb"],
-        ],
-      },
-
-      {
-        code: "I2",
-        label: "INTERLUDE",
-        chords: [
-          ["Ab", "Bb", "Cm"],
-          ["Ab", "Bb", "Cm"],
-          ["Ab", "Bb", "Cm"],
-          ["Ab", "Bb", "Cm"],
-        ],
-      },
-
-      {
-        code: "B3",
-        label: "BRIDGE",
-        chords: [
-          ["Ab", "Bb", "Cm", "Gm"],
-          ["Ab", "Bb", "Cm", "Gm"],
-        ],
-      },
-    ],
-  },
-
-  {
-    songTitle: "Mr. Brightside",
-    artist: "The Killers",
-    setlistOrder: 29,
-
-    chartMeta: {
-      page: "1/1",
-      key: "C",
-      tempo: 148,
-      timeSignature: "4/4",
+    {
+      code: "C",
+      label: "CHORUS",
+      chords: [
+        ["Fm", "G#"],
+        ["D#", "C#"],
+        ["Fm", "G#"],
+        ["D#", "C#"],
+      ],
     },
 
-    order: ["I", "V1", "P", "C", "B", "V2", "P", "C", "B", "O"],
+    {
+      code: "V2",
+      label: "VERSE 2",
+      chords: [
+        ["Fm", "D#", "C#", "D#"],
+        ["Fm", "D#", "C#", "D#"],
+        ["Fm", "D#", "C#", "D#"],
+        ["Fm", "D#", "C#", "Fm"],
+      ],
+    },
 
-    sections: [
-      {
-        code: "V1",
-        label: "VERSE 1",
-        chords: [
-          ["C", "G/B", "F"],
-          ["C", "G/B", "F"],
-          ["C", "G/B", "F"],
-        ],
-      },
+    {
+      code: "B",
+      label: "BRIDGE",
+      chords: [
+        ["Fm", "D#", "C#", "D#"],
+        ["Fm", "D#", "C#", "D#"],
+        ["Fm", "G#", "D#", "C#"],
+        ["Fm", "G#", "D#", "C#"],
+      ],
+    },
 
-      {
-        code: "P",
-        label: "PRE-CHORUS",
-        chords: [
-          ["Am", "G", "F"],
-          ["Am", "G", "F"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-        ],
-      },
-
-      {
-        code: "B",
-        label: "BRIDGE",
-        chords: [
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-        ],
-      },
-
-      {
-        code: "V2",
-        label: "VERSE 2",
-        chords: [
-          ["C", "G/B", "F"],
-          ["C", "G/B", "F"],
-          ["C", "G/B", "F"],
-        ],
-      },
-      {
-        code: "P",
-        label: "PRE-CHORUS",
-        chords: [
-          ["Am", "G", "F"],
-          ["Am", "G", "F"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-        ],
-      },
-
-      {
-        code: "O",
-        label: "OUTRO",
-        chords: [
-          ["c", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-        ],
-      },
-    ],
-  },
+    {
+      code: "O",
+      label: "OUTRO",
+      chords: [
+        ["Fm", "D#", "C#", "D#"],
+        ["Fm", "D#", "C#", "D#"],
+        ["Fm"],
+      ],
+    },
+  ],
+},
 ];
