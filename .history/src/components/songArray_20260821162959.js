@@ -3933,6 +3933,7 @@ export const songArray = [
         chords: [
           ["B", "C#m", "E", "A"],
           ["B", "C#m", "E", "A"],
+          ["B", "C#m", "E", "A"],
         ],
       },
 
@@ -4034,117 +4035,6 @@ export const songArray = [
         code: "O",
         label: "OUTRO",
         chords: [["B", "C#m"]],
-      },
-    ],
-  },
-  {
-    songTitle: "The Great Escape",
-    artist: "Boys Like Girls",
-
-    sections: [
-      {
-        code: "I",
-        label: "INTRO",
-        chords: [["E"]],
-      },
-
-      {
-        code: "V1",
-        label: "VERSE 1",
-        chords: [["E"], ["E"], ["C#m", "A"], ["E", "B"]],
-      },
-
-      {
-        code: "PC",
-        label: "PRE-CHORUS",
-        chords: [["A"]],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["C#m", "A"],
-          ["E", "B"],
-          ["C#m", "A"],
-          ["E", "B"],
-          ["F#m", "E/G#", "A", "B"],
-        ],
-      },
-
-      {
-        code: "B",
-        label: "BRIDGE",
-        chords: [["E", "E"]],
-      },
-
-      {
-        code: "V2",
-        label: "VERSE 2",
-        chords: [["E"], ["E"], ["C#m", "A"], ["E", "B"]],
-      },
-
-      {
-        code: "PC",
-        label: "PRE-CHORUS",
-        chords: [["A"]],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["C#m", "A"],
-          ["E", "B"],
-          ["C#m", "A"],
-          ["E", "B"],
-          ["F#m", "E/G#", "A", "B", "A"],
-        ],
-      },
-
-      {
-        code: "I",
-        label: "INTERLUDE",
-        chords: [["E/G#"], ["F#m"], ["B"]],
-      },
-
-      {
-        code: "S",
-        label: "SOLO",
-        chords: [["C#m", "A", "E", "B"], ["C#m", "A", "E", "B"], ["C#m"]],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["C#m", "A"],
-          ["E", "B"],
-          ["C#m", "A"],
-          ["E", "B"],
-          ["C#m"],
-          ["A"],
-          ["E", "B"],
-          ["C#m", "A"],
-          ["E", "B"],
-          ["C#m"],
-          ["A"],
-          ["E", "B"],
-          ["C#m", "A"],
-          ["E", "B"],
-          ["F#m", "E/G#", "A", "B"],
-        ],
-      },
-
-      {
-        code: "O",
-        label: "OUTRO",
-        chords: [
-          ["E", "E"],
-          ["E", "E"],
-          ["E", "E"],
-          ["E", "E"],
-        ],
       },
     ],
   },

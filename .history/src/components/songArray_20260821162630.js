@@ -3827,325 +3827,99 @@ export const songArray = [
     ],
   },
   {
-    songTitle: "MakeDamnSure",
-    artist: "Taking Back Sunday",
+  songTitle: "The Taste of Ink",
+  artist: "The Used",
 
-    sections: [
-      {
-        code: "V1",
-        label: "VERSE 1",
-        chords: [
-          ["Don't Play"],
-          ["G#m-F#", "A#m", "C#"],
-          ["D#m", "B"],
-          ["F#", "A#m"],
-          ["F5", "D#m", "G#m"],
-        ],
-      },
+  sections: [
+    {
+      code: "V1",
+      label: "VERSE 1",
+      chords: [
+        ["Don't Play"]
+        ["G#m", "F#", "A#m", "C#"],
+        ["D#m", "B"],
+        ["F#", "A#m"],
+        ["F5", "D#m", "G#m"],
+      ],
+    },
 
-      {
-        code: "PC",
-        label: "PRE-CHORUS",
-        chords: [
-          ["B", "F#/A#", "C#"],
-          ["B", "F#/A#", "C#"],
-        ],
-      },
+    {
+      code: "PC",
+      label: "PRE-CHORUS",
+      chords: [
+        ["B", "F#/A#", "C#"],
+        ["B", "F#/A#", "C#"],
+      ],
+    },
 
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["F#", "C#"],
-          ["F#/A#", "B", "F#"],
-        ],
-      },
+    {
+      code: "C",
+      label: "CHORUS",
+      chords: [
+        ["F#", "C#"],
+        ["F#/A#", "B", "F#"],
+      ],
+    },
 
-      {
-        code: "V2",
-        label: "VERSE 2",
-        chords: [
-          ["A#m", "C#", "D#m"],
-          ["B", "F#"],
-          ["A#m", "F5", "D#m", "G#m"],
-          ["F#", "A#m", "C#", "D#m", "B"],
-          ["F#", "A#m"],
-          ["F5", "D#m", "G#m"],
-        ],
-      },
+    {
+      code: "V2",
+      label: "VERSE 2",
+      chords: [
+        ["A#m", "C#", "D#m"],
+        ["B", "F#"],
+        ["A#m", "F5", "D#m", "G#m"],
+        ["F#", "A#m", "C#", "D#m", "B"],
+        ["F#", "A#m"],
+        ["F5", "D#m", "G#m"],
+      ],
+    },
 
-      {
-        code: "PC",
-        label: "PRE-CHORUS",
-        chords: [
-          ["B", "F#/A#", "C#"],
-          ["B", "F#/A#", "C#"],
-        ],
-      },
+    {
+      code: "PC",
+      label: "PRE-CHORUS",
+      chords: [
+        ["B", "F#/A#", "C#"],
+        ["B", "F#/A#", "C#"],
+      ],
+    },
 
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["F#", "C#"],
-          ["F#/A#", "B"],
-          ["F#", "C#"],
-          ["F#/A#", "B"],
-        ],
-      },
+    {
+      code: "C",
+      label: "CHORUS",
+      chords: [
+        ["F#", "C#"],
+        ["F#/A#", "B"],
+        ["F#", "C#"],
+        ["F#/A#", "B"],
+      ],
+    },
 
-      {
-        code: "I",
-        label: "INTERLUDE",
-        chords: [
-          ["D#m", "C#", "F#", "B"],
-          ["D#m", "C#", "F#", "B"],
-          ["D#m", "C#"],
-        ],
-      },
+    {
+      code: "I",
+      label: "INTERLUDE",
+      chords: [
+        ["D#m", "C#", "F#", "B"],
+        ["D#m", "C#", "F#", "B"],
+        ["D#m", "C#"],
+      ],
+    },
 
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["F#", "C#"],
-          ["F#/A#", "B"],
-          ["F#", "C#"],
-          ["F#/A#", "B"],
-        ],
-      },
+    {
+      code: "C",
+      label: "CHORUS",
+      chords: [
+        ["F#", "C#"],
+        ["F#/A#", "B"],
+        ["F#", "C#"],
+        ["F#/A#", "B"],
+      ],
+    },
 
-      {
-        code: "O",
-        label: "OUTRO",
-        chords: [["F#"]],
-      },
-    ],
-  },
-  {
-    songTitle: "Shake It",
-    artist: "Metro Station",
-
-    sections: [
-      {
-        code: "I",
-        label: "INTRO",
-        chords: [
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-        ],
-      },
-
-      {
-        code: "V1",
-        label: "VERSE 1",
-        chords: [
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-        ],
-      },
-
-      {
-        code: "PC",
-        label: "POST-CHORUS",
-        chords: [
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-        ],
-      },
-
-      {
-        code: "V2",
-        label: "VERSE 2",
-        chords: [
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-        ],
-      },
-
-      {
-        code: "PC",
-        label: "POST-CHORUS",
-        chords: [
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-        ],
-      },
-
-      {
-        code: "B",
-        label: "BRIDGE",
-        chords: [
-          ["E", "F#m", "A", "B"],
-          ["E", "F#m", "A", "B"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["E", "B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-        ],
-      },
-
-      {
-        code: "PC",
-        label: "POST-CHORUS",
-        chords: [
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-        ],
-      },
-
-      {
-        code: "O",
-        label: "OUTRO",
-        chords: [["B", "C#m"]],
-      },
-    ],
-  },
-  {
-    songTitle: "The Great Escape",
-    artist: "Boys Like Girls",
-
-    sections: [
-      {
-        code: "I",
-        label: "INTRO",
-        chords: [["E"]],
-      },
-
-      {
-        code: "V1",
-        label: "VERSE 1",
-        chords: [["E"], ["E"], ["C#m", "A"], ["E", "B"]],
-      },
-
-      {
-        code: "PC",
-        label: "PRE-CHORUS",
-        chords: [["A"]],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["C#m", "A"],
-          ["E", "B"],
-          ["C#m", "A"],
-          ["E", "B"],
-          ["F#m", "E/G#", "A", "B"],
-        ],
-      },
-
-      {
-        code: "B",
-        label: "BRIDGE",
-        chords: [["E", "E"]],
-      },
-
-      {
-        code: "V2",
-        label: "VERSE 2",
-        chords: [["E"], ["E"], ["C#m", "A"], ["E", "B"]],
-      },
-
-      {
-        code: "PC",
-        label: "PRE-CHORUS",
-        chords: [["A"]],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["C#m", "A"],
-          ["E", "B"],
-          ["C#m", "A"],
-          ["E", "B"],
-          ["F#m", "E/G#", "A", "B", "A"],
-        ],
-      },
-
-      {
-        code: "I",
-        label: "INTERLUDE",
-        chords: [["E/G#"], ["F#m"], ["B"]],
-      },
-
-      {
-        code: "S",
-        label: "SOLO",
-        chords: [["C#m", "A", "E", "B"], ["C#m", "A", "E", "B"], ["C#m"]],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["C#m", "A"],
-          ["E", "B"],
-          ["C#m", "A"],
-          ["E", "B"],
-          ["C#m"],
-          ["A"],
-          ["E", "B"],
-          ["C#m", "A"],
-          ["E", "B"],
-          ["C#m"],
-          ["A"],
-          ["E", "B"],
-          ["C#m", "A"],
-          ["E", "B"],
-          ["F#m", "E/G#", "A", "B"],
-        ],
-      },
-
-      {
-        code: "O",
-        label: "OUTRO",
-        chords: [
-          ["E", "E"],
-          ["E", "E"],
-          ["E", "E"],
-          ["E", "E"],
-        ],
-      },
-    ],
-  },
+    {
+      code: "O",
+      label: "OUTRO",
+      chords: [["F#"]],
+    },
+  ],
+}
 ];

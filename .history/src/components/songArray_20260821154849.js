@@ -3101,1051 +3101,118 @@ export const songArray = [
       },
     ],
   },
-  {
-    songTitle: "Ocean Avenue",
-    artist: "Yellowcard",
-
-    sections: [
-      {
-        code: "I",
-        label: "INTRO",
-        chords: [["E", "F#", "D"]],
-      },
-
-      {
-        code: "V1",
-        label: "VERSE 1",
-        chords: [
-          ["E", "F#", "D"],
-          ["E", "F#", "D"],
-        ],
-      },
-
-      {
-        code: "PC",
-        label: "PRE-CHORUS",
-        chords: [["E", "F#", "D"]],
-      },
-
-      {
-        code: "V2",
-        label: "VERSE 2",
-        chords: [
-          ["E", "F#", "D"],
-          ["E", "F#", "D"],
-        ],
-      },
-
-      {
-        code: "PC",
-        label: "PRE-CHORUS",
-        chords: [["E", "F#", "D"]],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["E", "F#", "D"],
-          ["E", "F#", "D"],
-          ["E", "F#", "D"],
-        ],
-      },
-
-      {
-        code: "PV",
-        label: "PRE-VERSE",
-        chords: [["E", "F#", "D"]],
-      },
-
-      {
-        code: "V3",
-        label: "VERSE 3",
-        chords: [
-          ["E", "F#", "D"],
-          ["E", "F#", "D"],
-        ],
-      },
-
-      {
-        code: "PC",
-        label: "PRE-CHORUS",
-        chords: [["E", "F#", "D"]],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["E", "F#", "D"],
-          ["E", "F#", "D"],
-          ["E", "F#", "D"],
-          ["E", "F#", "D"],
-        ],
-      },
-
-      {
-        code: "INT",
-        label: "INTERLUDE",
-        chords: [
-          ["C#", "D", "C#", "D"],
-          ["A", "F#", "E", "D"],
-        ],
-      },
-
-      {
-        code: "B",
-        label: "BRIDGE",
-        chords: [
-          ["A", "F#", "E", "D"],
-          ["A", "F#", "E", "D"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["E", "F#", "D"],
-          ["E", "F#", "D"],
-          ["E", "F#", "D"],
-          ["E", "F#", "D"],
-        ],
-      },
-
-      {
-        code: "O",
-        label: "OUTRO",
-        chords: [["E", "F#", "D", "E"], ["D"]],
-      },
-    ],
-  },
-  {
-    songTitle: "Two Is Better Than One",
-    artist: "Boys Like Girls",
-
-    sections: [
-      {
-        code: "I",
-        label: "INTRO",
-        chords: [["C"]],
-      },
-
-      {
-        code: "V1",
-        label: "VERSE 1",
-        chords: [
-          ["C", "Am", "F", "G"],
-          ["C", "Am", "F", "G", "C"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["F", "G"],
-          ["F", "G"],
-          ["F", "G"],
-          ["Am", "G", "F"],
-          ["Am", "G", "C"],
-        ],
-      },
-
-      {
-        code: "V2",
-        label: "VERSE 2",
-        chords: [
-          ["C", "Am", "F", "G"],
-          ["C", "Am", "F", "G", "C"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["F", "G"],
-          ["F", "G"],
-          ["F", "G"],
-          ["Am", "G", "F"],
-          ["Am", "G"],
-        ],
-      },
-
-      {
-        code: "INT",
-        label: "INTERLUDE",
-        chords: [
-          ["F", "G", "Am", "G"],
-          ["F", "G", "Dm", "G"],
-        ],
-      },
-
-      {
-        code: "B",
-        label: "BRIDGE",
-        chords: [["C", "Am", "F"]],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["F", "G"],
-          ["F", "G"],
-          ["F", "G"],
-          ["Am", "G", "F", "G"],
-          ["F", "G"],
-          ["F", "G"],
-          ["F", "G"],
-          ["Am", "G", "F"],
-          ["Am", "G"],
-        ],
-      },
-
-      {
-        code: "O",
-        label: "OUTRO",
-        chords: [["C", "Am", "F", "G", "C"]],
-      },
-    ],
-  },
-  {
-    songTitle: "Face Down",
-    artist: "The Red Jumpsuit Apparatus",
-
-    sections: [
-      {
-        code: "IV",
-        label: "INTRO / VERSE",
-        chords: [["Gm", "Eb", "Bb", "F"]],
-      },
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [["Gm", "Eb", "Bb", "F"]],
-      },
-      {
-        code: "B",
-        label: "BRIDGE",
-        chords: [["Gm", "Eb", "Bb", "F"]],
-      },
-    ],
-  },
-  {
-    songTitle: "All the Small Things",
-    artist: "blink-182",
-
-    sections: [
-      {
-        code: "I",
-        label: "INTRO",
-        chords: [
-          ["C", "G", "Am", "F"],
-          ["C", "G", "Am", "F"],
-        ],
-      },
-
-      {
-        code: "V1",
-        label: "VERSE 1",
-        chords: [
-          ["C", "G", "F", "G", "C"],
-          ["G", "F", "G", "C"],
-          ["G", "F", "G", "C"],
-          ["G", "F", "G"],
-        ],
-      },
-
-      {
-        code: "PC",
-        label: "PRE-CHORUS",
-        chords: [["C", "G", "F"]],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["C", "G", "F"],
-          ["C", "G", "F"],
-        ],
-      },
-
-      {
-        code: "PV",
-        label: "PRE-VERSE",
-        chords: [
-          ["C", "G", "Am", "F"],
-          ["C", "G", "Am", "F"],
-        ],
-      },
-
-      {
-        code: "V2",
-        label: "VERSE 2",
-        chords: [
-          ["C", "G", "F", "G", "C"],
-          ["G", "F", "G", "C"],
-        ],
-      },
-
-      {
-        code: "PC",
-        label: "PRE-CHORUS",
-        chords: [["C", "G", "F"]],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["C", "G", "F"],
-          ["C", "G", "F"],
-        ],
-      },
-
-      {
-        code: "B",
-        label: "BRIDGE",
-        chords: [
-          ["C", "F", "G", "C"],
-          ["F", "G", "C", "F"],
-          ["G", "C", "F", "G"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["C", "G", "F", "C"],
-          ["G", "F", "C"],
-          ["G", "F", "C"],
-          ["G", "F", "C"],
-        ],
-      },
-    ],
-  },
-  {
-    songTitle: "I'd Do Anything",
-    artist: "Simple Plan",
-
-    sections: [
-      {
-        code: "I",
-        label: "INTRO",
-        chords: [
-          ["C#", "D#", "Ab"],
-          ["C#", "D#", "Ab"],
-          ["C#", "D#", "Ab"],
-        ],
-      },
-
-      {
-        code: "V1",
-        label: "VERSE 1",
-        chords: [
-          ["Ab", "D#", "Fm"],
-          ["C#", "D#", "Ab"],
-          ["D#", "Fm", "C#"],
-          ["D#", "Ab", "D#", "Fm"],
-          ["C#", "D#", "Ab"],
-          ["D#", "Fm", "C#", "D#"],
-        ],
-      },
-
-      {
-        code: "PC",
-        label: "PRE-CHORUS",
-        chords: [["Bbm", "Cm", "C#", "D#"]],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["C#", "Ab", "D#", "Fm", "C#"],
-          ["Ab", "D#", "Fm", "C#"],
-          ["Ab", "D#"],
-          ["Fm", "C#", "D#", "Ab"],
-        ],
-      },
-
-      {
-        code: "V2",
-        label: "VERSE 2",
-        chords: [
-          ["Ab", "D#", "Fm", "C#"],
-          ["D#", "Ab", "D#", "Fm", "C#"],
-          ["D#", "Ab", "D#", "Fm", "C#"],
-          ["D#", "Ab"],
-          ["D#", "Fm", "C#", "D#"],
-        ],
-      },
-
-      {
-        code: "PC",
-        label: "PRE-CHORUS",
-        chords: [
-          ["Bbm", "Cm", "C#", "D#"],
-          ["Bbm", "Cm", "D#"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["C#", "Ab", "D#", "Fm", "C#"],
-          ["Ab", "D#", "Fm", "C#"],
-          ["Ab", "D#"],
-          ["Fm", "C#"],
-        ],
-      },
-
-      {
-        code: "B",
-        label: "BRIDGE",
-        chords: [
-          ["C#", "Ab", "D#", "Fm"],
-          ["C#", "Ab", "D#"],
-          ["Fm", "C#"],
-          ["Ab", "D#"],
-          ["Fm"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["C#", "Ab", "D#", "Fm", "C#"],
-          ["Ab", "D#", "Fm", "C#"],
-          ["Ab", "D#"],
-          ["Fm", "C#"],
-        ],
-      },
-
-      {
-        code: "O",
-        label: "OUTRO",
-        chords: [
-          ["C#", "Ab", "D#"],
-          ["Fm", "C#"],
-          ["Ab", "D#"],
-          ["Fm", "C#"],
-          ["Ab", "D#"],
-          ["Fm", "C#"],
-          ["Ab", "D#", "Fm", "C#", "D#", "Ab"],
-        ],
-      },
-    ],
-  },
-  {
-    songTitle: "Decode",
-    artist: "Paramore",
-
-    sections: [
-      {
-        code: "I",
-        label: "INTRO",
-        chords: [["Gb", "Eb", "Bb", "F"]],
-      },
-
-      {
-        code: "V1",
-        label: "VERSE 1",
-        chords: [
-          ["Gb", "Eb", "Bb", "F"],
-          ["Gb", "Eb", "Bb", "F"],
-        ],
-      },
-
-      {
-        code: "PC",
-        label: "PRE-CHORUS",
-        chords: [["Gb", "Eb", "Bb", "F"]],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["Gb", "Eb", "Bb", "F"],
-          ["Gb", "Eb", "Bb", "F", "Bb"],
-        ],
-      },
-
-      {
-        code: "V2",
-        label: "VERSE 2",
-        chords: [
-          ["Gb", "Eb", "Bb", "F"],
-          ["Gb", "Eb", "Bb", "F"],
-        ],
-      },
-
-      {
-        code: "PC",
-        label: "PRE-CHORUS",
-        chords: [["Gb", "Eb", "Bb", "F"]],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["Gb", "Eb", "Bb", "F"],
-          ["Gb", "Eb", "Bb", "F"],
-        ],
-      },
-
-      {
-        code: "S",
-        label: "SOLO",
-        chords: [
-          ["Gb", "Eb", "Bb", "F"],
-          ["Gb", "Eb", "Bb", "F"],
-        ],
-      },
-
-      {
-        code: "I2",
-        label: "INTERLUDE",
-        chords: [
-          ["Gb", "Eb", "Bb", "F"],
-          ["Gb", "Eb", "Bb", "F"],
-        ],
-      },
-
-      {
-        code: "B",
-        label: "BRIDGE",
-        chords: [["Gb", "Eb", "Bb", "F"]],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [["Gb", "Eb", "Bb", "F"], ["Gb", "Eb", "Bb", "F"], ["Gb"]],
-      },
-
-      {
-        code: "O",
-        label: "OUTRO",
-        chords: [
-          ["Eb", "Gb", "F"],
-          ["Gb", "Eb", "Gb", "F"],
-          ["Gb", "Eb", "Gb", "F"],
-          ["Gb", "Eb"],
-          ["Gb", "F", "Gb"],
-        ],
-      },
-    ],
-  },
-  {
-    songTitle: "I Write Sins Not Tragedies",
-    artist: "Panic! At The Disco",
-
-    sections: [
-      {
-        code: "I",
-        label: "INTRO",
-        chords: [["Am", "D", "F"], ["F"]],
-      },
-
-      {
-        code: "V1",
-        label: "VERSE 1",
-        chords: [["Am"], ["D"], ["F", "F"], ["Am"], ["D", "F", "F"]],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["Am", "F", "D", "G", "Am"],
-          ["F", "D", "G"],
-          ["Am", "F", "D", "G", "Am"],
-          ["F", "D", "G"],
-        ],
-      },
-
-      {
-        code: "V2",
-        label: "VERSE 2",
-        chords: [["Am"], ["D", "F", "F"], ["Am"], ["D", "F", "F", "F"]],
-      },
-
-      {
-        code: "B",
-        label: "BRIDGE",
-        chords: [["G", "Am", "F", "Am"], ["D"]],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["Am", "F", "D", "G", "Am"],
-          ["F", "D", "G"],
-          ["Am", "F", "D", "G", "Am"],
-          ["F", "D"],
-        ],
-      },
-
-      {
-        code: "B",
-        label: "BRIDGE",
-        chords: [
-          ["G", "F", "G", "Am", "F"],
-          ["Am", "D", "F", "G", "Am", "G", "F"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["Am", "F", "D", "G", "Am"],
-          ["F", "D", "G"],
-          ["Am", "F", "D", "G", "Am"],
-          ["F", "D"],
-        ],
-      },
-
-      {
-        code: "O",
-        label: "OUTRO",
-        chords: [
-          ["F", "G", "Am", "F"],
-          ["Am", "D", "F"],
-          ["Am", "C", "F", "Am"],
-          ["D", "F"],
-        ],
-      },
-    ],
-  },
-  {
-    songTitle: "My Own Worst Enemy",
-    artist: "Lit",
-
-    sections: [
-      {
-        code: "I",
-        label: "INTRO",
-        chords: [
-          ["E", "B", "A", "E", "B", "A"],
-          ["E", "B", "A", "E"],
-          ["B", "A"],
-        ],
-      },
-
-      {
-        code: "V1",
-        label: "VERSE 1",
-        chords: [
-          ["E", "B", "A"],
-          ["E", "B", "A"],
-          ["E", "B", "A"],
-          ["E", "B", "A"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["E", "F#m", "A"],
-          ["B/F#", "E"],
-          ["F#m", "A", "B/F#"],
-        ],
-      },
-
-      {
-        code: "B",
-        label: "BRIDGE",
-        chords: [
-          ["E", "B", "A"],
-          ["E", "B", "A"],
-        ],
-      },
-
-      {
-        code: "V2",
-        label: "VERSE 2",
-        chords: [
-          ["E", "B", "A"],
-          ["E", "B", "A"],
-          ["E", "B", "A"],
-          ["E", "B", "A"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["E", "F#m", "A"],
-          ["B/F#", "E"],
-          ["F#m", "A", "B/F#"],
-        ],
-      },
-
-      {
-        code: "S",
-        label: "SOLO",
-        chords: [["E", "B", "A"], ["E", "B", "A", "E", "B", "A"], ["E"]],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["B", "A", "E", "F#m", "A"],
-          ["B/F#", "E"],
-          ["F#m", "A", "B/F#"],
-        ],
-      },
-
-      {
-        code: "I2",
-        label: "INTERLUDE",
-        chords: [["E"], ["F#m"], ["A", "B/F#"], ["E", "F#m"], ["A", "B/F#"]],
-      },
-
-      {
-        code: "O",
-        label: "OUTRO",
-        chords: [
-          ["E", "B", "A"],
-          ["E", "B", "A"],
-        ],
-      },
-    ],
-  },
-  {
-    songTitle: "MakeDamnSure",
-    artist: "Taking Back Sunday",
-
-    sections: [
-      {
-        code: "V1",
-        label: "VERSE 1",
-        chords: [
-          ["Don't Play"],
-          ["G#m-F#", "A#m", "C#"],
-          ["D#m", "B"],
-          ["F#", "A#m"],
-          ["F5", "D#m", "G#m"],
-        ],
-      },
-
-      {
-        code: "PC",
-        label: "PRE-CHORUS",
-        chords: [
-          ["B", "F#/A#", "C#"],
-          ["B", "F#/A#", "C#"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["F#", "C#"],
-          ["F#/A#", "B", "F#"],
-        ],
-      },
-
-      {
-        code: "V2",
-        label: "VERSE 2",
-        chords: [
-          ["A#m", "C#", "D#m"],
-          ["B", "F#"],
-          ["A#m", "F5", "D#m", "G#m"],
-          ["F#", "A#m", "C#", "D#m", "B"],
-          ["F#", "A#m"],
-          ["F5", "D#m", "G#m"],
-        ],
-      },
-
-      {
-        code: "PC",
-        label: "PRE-CHORUS",
-        chords: [
-          ["B", "F#/A#", "C#"],
-          ["B", "F#/A#", "C#"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["F#", "C#"],
-          ["F#/A#", "B"],
-          ["F#", "C#"],
-          ["F#/A#", "B"],
-        ],
-      },
-
-      {
-        code: "I",
-        label: "INTERLUDE",
-        chords: [
-          ["D#m", "C#", "F#", "B"],
-          ["D#m", "C#", "F#", "B"],
-          ["D#m", "C#"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["F#", "C#"],
-          ["F#/A#", "B"],
-          ["F#", "C#"],
-          ["F#/A#", "B"],
-        ],
-      },
-
-      {
-        code: "O",
-        label: "OUTRO",
-        chords: [["F#"]],
-      },
-    ],
-  },
-  {
-    songTitle: "Shake It",
-    artist: "Metro Station",
-
-    sections: [
-      {
-        code: "I",
-        label: "INTRO",
-        chords: [
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-        ],
-      },
-
-      {
-        code: "V1",
-        label: "VERSE 1",
-        chords: [
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-        ],
-      },
-
-      {
-        code: "PC",
-        label: "POST-CHORUS",
-        chords: [
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-        ],
-      },
-
-      {
-        code: "V2",
-        label: "VERSE 2",
-        chords: [
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-        ],
-      },
-
-      {
-        code: "PC",
-        label: "POST-CHORUS",
-        chords: [
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-        ],
-      },
-
-      {
-        code: "B",
-        label: "BRIDGE",
-        chords: [
-          ["E", "F#m", "A", "B"],
-          ["E", "F#m", "A", "B"],
-        ],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["E", "B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-        ],
-      },
-
-      {
-        code: "PC",
-        label: "POST-CHORUS",
-        chords: [
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-          ["B", "C#m", "E", "A"],
-        ],
-      },
-
-      {
-        code: "O",
-        label: "OUTRO",
-        chords: [["B", "C#m"]],
-      },
-    ],
-  },
-  {
-    songTitle: "The Great Escape",
-    artist: "Boys Like Girls",
-
-    sections: [
-      {
-        code: "I",
-        label: "INTRO",
-        chords: [["E"]],
-      },
-
-      {
-        code: "V1",
-        label: "VERSE 1",
-        chords: [["E"], ["E"], ["C#m", "A"], ["E", "B"]],
-      },
-
-      {
-        code: "PC",
-        label: "PRE-CHORUS",
-        chords: [["A"]],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["C#m", "A"],
-          ["E", "B"],
-          ["C#m", "A"],
-          ["E", "B"],
-          ["F#m", "E/G#", "A", "B"],
-        ],
-      },
-
-      {
-        code: "B",
-        label: "BRIDGE",
-        chords: [["E", "E"]],
-      },
-
-      {
-        code: "V2",
-        label: "VERSE 2",
-        chords: [["E"], ["E"], ["C#m", "A"], ["E", "B"]],
-      },
-
-      {
-        code: "PC",
-        label: "PRE-CHORUS",
-        chords: [["A"]],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["C#m", "A"],
-          ["E", "B"],
-          ["C#m", "A"],
-          ["E", "B"],
-          ["F#m", "E/G#", "A", "B", "A"],
-        ],
-      },
-
-      {
-        code: "I",
-        label: "INTERLUDE",
-        chords: [["E/G#"], ["F#m"], ["B"]],
-      },
-
-      {
-        code: "S",
-        label: "SOLO",
-        chords: [["C#m", "A", "E", "B"], ["C#m", "A", "E", "B"], ["C#m"]],
-      },
-
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["C#m", "A"],
-          ["E", "B"],
-          ["C#m", "A"],
-          ["E", "B"],
-          ["C#m"],
-          ["A"],
-          ["E", "B"],
-          ["C#m", "A"],
-          ["E", "B"],
-          ["C#m"],
-          ["A"],
-          ["E", "B"],
-          ["C#m", "A"],
-          ["E", "B"],
-          ["F#m", "E/G#", "A", "B"],
-        ],
-      },
-
-      {
-        code: "O",
-        label: "OUTRO",
-        chords: [
-          ["E", "E"],
-          ["E", "E"],
-          ["E", "E"],
-          ["E", "E"],
-        ],
-      },
-    ],
-  },
+  [Intro]
+E5 F#5 D5
+ 
+ 
+[Verse 1]
+E5                    F#5         D5
+  There's a place off Ocean Avenue
+                                     E5
+Where I used to sit and talk with you
+                F#5                      D5
+We were both sixteen and it felt so right
+                                E5     F#5
+Sleeping all day, staying up all  night
+ 
+ 
+[Pre-Chorus]
+D5              E5     F#5 D5
+  staying up all  night
+ 
+ 
+[Verse 2]
+E5                       F#5                    D5
+  There's a place on the corner of Cherry Street
+                                           E5
+We would walk on the beach in our bare feet
+                 F#5                      D5
+We were both eighteen and it felt so right
+                                E5     F#5
+Sleeping all day, staying up all  night
+ 
+ 
+[Pre-Chorus]
+D5              E5     F#5
+  staying up all  night
+ 
+ 
+[Chorus]
+D5           E5          F#5                 D5
+  If I could find you now   things would get better
+         E5             F#5           D5
+We could leave this town   and run forever
+         E5              F#5          D5
+Let your waves crash down   on me and take me away
+ 
+ 
+[Pre-Verse]
+E5 F#5 D5
+ 
+ 
+[Verse 3]
+E5                      F#5
+  There's a piece of you   that's here with me
+D5                                           E5
+  It's everywhere I go, it's everything I see
+                F#5                    D5
+When I sleep, I dream and it gets me by
+                                   E5       F#5
+I can make believe that you're here  tonight
+ 
+ 
+[Pre-Chorus]
+D5                E5       F#5
+  That you're here  tonight
+ 
+ 
+[Chorus]
+D5           E5          F#5                 D5
+  If I could find you now   things would get better
+         E5             F#5           D5
+We could leave this town   and run forever
+           E5            F#5           D5
+I know somewhere, somehow   we'll be together
+         E5              F#5          D5
+Let your waves crash down   on me and take me away
+ 
+ 
+[Interlude]
+C#5 D5 C#5 D5
+A5 F#5 E5 D5
+ 
+ 
+[Bridge]
+A5
+  I remember the look in your eyes
+F#5
+   When I told you that this was goodbye
+E5
+  You were begging me not tonight
+         D5
+Not here,  not now
+A5
+  We're looking up at the same night sky
+F#5
+   And keep pretending the sun will not rise
+E5
+  Be together for one more night
+          D5
+Somewhere,  somehow
+ 
+ 
+[Chorus]
+           E5          F#5                 D5
+If I could find you now   things would get better
+         E5             F#5           D5
+We could leave this town   and run forever
+           E5            F#5           D5
+I know somewhere, somehow   we'll be together
+         E5              F#5          D5
+Let your waves crash down   on me and take me away
+ 
+ 
+[Outro]
+E5 F#5 D5 E5
+D5
 ];
