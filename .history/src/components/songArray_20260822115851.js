@@ -3953,11 +3953,7 @@ export const songArray = [
       {
         code: "I2",
         label: "INTERLUDE",
-        chords: [
-          ["E", "F#m", "A", "B"],
-          ["E", "F#m", "A", "B"],
-          ["B - C#m - e"],
-        ],
+        chords: [["E"], ["F#m"], ["A", "B/F#"], ["E", "F#m"], ["A", "B/F#"]],
       },
 
       {

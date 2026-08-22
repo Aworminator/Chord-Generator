@@ -3895,7 +3895,6 @@ export const songArray = [
         chords: [
           ["E", "F#m", "A", "B"],
           ["E", "F#m", "A", "B"],
-          ["B - C#m - e"],
         ],
       },
 
@@ -3923,41 +3922,32 @@ export const songArray = [
         code: "C",
         label: "CHORUS",
         chords: [
-          ["E", "F#m", "A", "B"],
-          ["E", "F#m", "A", "B"],
-          ["B - C#m - e"],
+          ["E", "F#m", "A"],
+          ["B/F#", "E"],
+          ["F#m", "A", "B/F#"],
         ],
       },
 
       {
         code: "S",
         label: "SOLO",
-        chords: [
-          ["E", "B", "A"],
-          ["E", "B", "A"],
-          ["E", "B", "A"],
-          ["E", "B", "A"],
-        ],
+        chords: [["E", "B", "A"], ["E", "B", "A", "E", "B", "A"], ["E"]],
       },
 
       {
         code: "C",
         label: "CHORUS",
         chords: [
-          ["E", "F#m", "A", "B"],
-          ["E", "F#m", "A", "B"],
-          ["B - C#m - e"],
+          ["B", "A", "E", "F#m", "A"],
+          ["B/F#", "E"],
+          ["F#m", "A", "B/F#"],
         ],
       },
 
       {
         code: "I2",
         label: "INTERLUDE",
-        chords: [
-          ["E", "F#m", "A", "B"],
-          ["E", "F#m", "A", "B"],
-          ["B - C#m - e"],
-        ],
+        chords: [["E"], ["F#m"], ["A", "B/F#"], ["E", "F#m"], ["A", "B/F#"]],
       },
 
       {

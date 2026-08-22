@@ -3714,7 +3714,10 @@ export const songArray = [
       {
         code: "TN",
         label: "TURNAROUND",
-        chords: [["Bb", "D# - Ab"], ["F"]],
+        chords: [
+          ["Bb", "D# - Ab"], ["F"]
+     
+        ],
       },
 
       {
@@ -3768,23 +3771,18 @@ export const songArray = [
       {
         code: "C",
         label: "CHORUS",
-        chords: [
-          ["Gb", "Eb", "Bb", "F"],
-          ["Gb", "Eb", "Bb", "F"],
-        ],
+        chords: [["Gb", "Eb", "Bb", "F"], ["Gb", "Eb", "Bb", "F"], ["Gb"]],
       },
 
       {
         code: "O",
         label: "OUTRO",
         chords: [
-          ["Gb", "Ab", "Eb", "Bb - G"],
-          ["Gb", "Bb", "G"],
-          ["Gb", "Ab", "Eb", "Bb - G"],
-          ["Gb", "Bb", "G"],
-          ["Gb", "Ab", "Eb", "Bb - G"],
-          ["Gb", "Bb", "G"],
-          ["Eb"],
+          ["Eb", "Gb", "F"],
+          ["Gb", "Eb", "Gb", "F"],
+          ["Gb", "Eb", "Gb", "F"],
+          ["Gb", "Eb"],
+          ["Gb", "F", "Gb"],
         ],
       },
     ],
@@ -3795,74 +3793,79 @@ export const songArray = [
 
     sections: [
       {
+        code: "I",
+        label: "INTRO",
+        chords: [["Am", "D", "F"], ["F"]],
+      },
+
+      {
         code: "V1",
         label: "VERSE 1",
-        chords: [["Don't Play"]],
+        chords: [["Am"], ["D"], ["F", "F"], ["Am"], ["D", "F", "F"]],
       },
 
       {
         code: "C",
         label: "CHORUS",
         chords: [
-          ["Am", "F", "D", "D - G"],
-          ["Am", "F", "D", "D - G"],
-          ["Am", "F", "D", "D - G"],
-          ["Am", "F", "D", "D - G"],
-          ["Am"],
+          ["Am", "F", "D", "G", "Am"],
+          ["F", "D", "G"],
+          ["Am", "F", "D", "G", "Am"],
+          ["F", "D", "G"],
         ],
       },
 
       {
         code: "V2",
         label: "VERSE 2",
-        chords: [["Pause"], ["f#", "f#", "f"], ["Am"], ["f#", "f#", "f"]],
+        chords: [["Am"], ["D", "F", "F"], ["Am"], ["D", "F", "F", "F"]],
       },
 
       {
         code: "B",
         label: "BRIDGE",
-        chords: [["All 1/8th notes"], ["F", "d", "B"], ["F", "G", "D"]],
+        chords: [["G", "Am", "F", "Am"], ["D"]],
       },
 
       {
         code: "C",
         label: "CHORUS",
         chords: [
-          ["Am", "F", "D", "D - G"],
-          ["Am", "F", "D", "D - G"],
-          ["Am", "F", "D", "D - G"],
-          ["Am", "F", "D", "D - G"],
-          ["Am"],
+          ["Am", "F", "D", "G", "Am"],
+          ["F", "D", "G"],
+          ["Am", "F", "D", "G", "Am"],
+          ["F", "D"],
         ],
       },
 
       {
         code: "B",
         label: "BRIDGE",
-        chords: [["F", "d", "B"], ["F", "G", "D"], ["F", "B", "C"], ["F"]],
+        chords: [
+          ["G", "F", "G", "Am", "F"],
+          ["Am", "D", "F", "G", "Am", "G", "F"],
+        ],
       },
 
       {
         code: "C",
         label: "CHORUS",
         chords: [
-          ["Am", "F", "D", "D - G"],
-          ["Am", "F", "D", "D - G"],
-          ["Am", "F", "D", "D - G"],
-          ["Am", "F", "D", "D - G"],
-          ["Am"],
+          ["Am", "F", "D", "G", "Am"],
+          ["F", "D", "G"],
+          ["Am", "F", "D", "G", "Am"],
+          ["F", "D"],
         ],
       },
 
       {
         code: "O",
-        label: "Outro",
+        label: "OUTRO",
         chords: [
-          ["F", "d", "B"],
-          ["F", "G", "D"],
-          ["F", "B", "C"],
-          ["F", "G", "D"],
-          ["F"],
+          ["F", "G", "Am", "F"],
+          ["Am", "D", "F"],
+          ["Am", "C", "F", "Am"],
+          ["D", "F"],
         ],
       },
     ],
@@ -3875,7 +3878,11 @@ export const songArray = [
       {
         code: "I",
         label: "INTRO",
-        chords: [["Pause"], ["E", "B", "A"], ["E", "B", "A"]],
+        chords: [
+          ["E", "B", "A", "E", "B", "A"],
+          ["E", "B", "A", "E"],
+          ["B", "A"],
+        ],
       },
 
       {
@@ -3893,9 +3900,9 @@ export const songArray = [
         code: "C",
         label: "CHORUS",
         chords: [
-          ["E", "F#m", "A", "B"],
-          ["E", "F#m", "A", "B"],
-          ["B - C#m - e"],
+          ["E", "F#m", "A"],
+          ["B/F#", "E"],
+          ["F#m", "A", "B/F#"],
         ],
       },
 
@@ -3923,41 +3930,32 @@ export const songArray = [
         code: "C",
         label: "CHORUS",
         chords: [
-          ["E", "F#m", "A", "B"],
-          ["E", "F#m", "A", "B"],
-          ["B - C#m - e"],
+          ["E", "F#m", "A"],
+          ["B/F#", "E"],
+          ["F#m", "A", "B/F#"],
         ],
       },
 
       {
         code: "S",
         label: "SOLO",
-        chords: [
-          ["E", "B", "A"],
-          ["E", "B", "A"],
-          ["E", "B", "A"],
-          ["E", "B", "A"],
-        ],
+        chords: [["E", "B", "A"], ["E", "B", "A", "E", "B", "A"], ["E"]],
       },
 
       {
         code: "C",
         label: "CHORUS",
         chords: [
-          ["E", "F#m", "A", "B"],
-          ["E", "F#m", "A", "B"],
-          ["B - C#m - e"],
+          ["B", "A", "E", "F#m", "A"],
+          ["B/F#", "E"],
+          ["F#m", "A", "B/F#"],
         ],
       },
 
       {
         code: "I2",
         label: "INTERLUDE",
-        chords: [
-          ["E", "F#m", "A", "B"],
-          ["E", "F#m", "A", "B"],
-          ["B - C#m - e"],
-        ],
+        chords: [["E"], ["F#m"], ["A", "B/F#"], ["E", "F#m"], ["A", "B/F#"]],
       },
 
       {
