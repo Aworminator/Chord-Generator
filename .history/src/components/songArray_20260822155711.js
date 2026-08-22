@@ -2674,7 +2674,6 @@ export const songArray = [
         code: "O",
         label: "OUTRO",
         chords: [
-          ["End all on 5th fret"],
           ["c", "F", "Am", "G"],
           ["C", "F", "Am", "G"],
           ["C", "F", "Am", "G"],

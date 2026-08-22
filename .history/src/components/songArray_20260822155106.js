@@ -2464,7 +2464,7 @@ export const songArray = [
       {
         code: "O",
         label: "OUTRO",
-        chords: [["Fm"]],
+        chords: [["Fm", "D#", "C#", "D#"], ["Fm", "D#", "C#", "D#"], ["Fm"]],
       },
     ],
   },
@@ -2659,27 +2659,15 @@ export const songArray = [
           ["C", "F", "Am", "G"],
         ],
       },
-      {
-        code: "IN",
-        label: "INTERLUDE",
-        chords: [
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-          ["C", "F", "Am", "G"],
-        ],
-      },
 
       {
         code: "O",
         label: "OUTRO",
         chords: [
-          ["End all on 5th fret"],
           ["c", "F", "Am", "G"],
           ["C", "F", "Am", "G"],
           ["C", "F", "Am", "G"],
-          ["C", "F", "Am"],
-          ["g - d - G"],
+          ["C", "F", "Am", "G"],
         ],
       },
     ],

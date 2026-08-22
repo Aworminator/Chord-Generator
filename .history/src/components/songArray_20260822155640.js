@@ -2659,7 +2659,7 @@ export const songArray = [
           ["C", "F", "Am", "G"],
         ],
       },
-      {
+          {
         code: "IN",
         label: "INTERLUDE",
         chords: [
@@ -2674,12 +2674,11 @@ export const songArray = [
         code: "O",
         label: "OUTRO",
         chords: [
-          ["End all on 5th fret"],
           ["c", "F", "Am", "G"],
           ["C", "F", "Am", "G"],
           ["C", "F", "Am", "G"],
-          ["C", "F", "Am"],
-          ["g - d - G"],
+          ["C", "F", "Am", "G"],
+          ["g d "]
         ],
       },
     ],
