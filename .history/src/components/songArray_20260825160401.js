@@ -2912,7 +2912,7 @@ export const songArray = [
   {
     songTitle: "Jamie All Over",
     artist: "Mayday Parade",
-    setlistOrder: 40.5,
+    setlistOrder: ,
 
     chartMeta: {
       page: "1/1",
