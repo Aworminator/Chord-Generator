@@ -266,9 +266,9 @@ export const songArray = [
       },
 
       {
-        code: "PC",
-        label: "PRE-CHORUS",
-        chords: [["7 9 11 14"], ["0 2 4 7"], ["9 11 9 7 9"]],
+        code: "B1",
+        label: "BRIDGE",
+        chords: [["7 9 11 14 0"], ["0 2 4 7"], ["9 11 9 7 9"]],
       },
 
       {
@@ -289,8 +289,6 @@ export const songArray = [
         chords: [
           ["E", "e", "A", "G#m", "A"],
           ["E", "e", "A", "G#m"],
-          ["E", "e", "A", "G#m", "A"],
-          ["E", "e", "A", "G#m", "F#m - G#m"],
         ],
       },
 
@@ -308,8 +306,8 @@ export const songArray = [
       },
 
       {
-        code: "PRE2",
-        label: "PRE-CHORUS 2",
+        code: "B2",
+        label: "BRIDGE",
         chords: [
           ["E", "A"],
           ["e", "a"],
@@ -3636,20 +3634,15 @@ export const songArray = [
       {
         code: "V2",
         label: "VERSE 2",
-        chords: [["C#m"], ["E", "B", "G#m - A..."], ["C#m", "B"]],
+        chords: [["C#m"], ["E", "B", "G#m", "A"]],
       },
       {
         code: "P",
         label: "PRE-CHORUS 2",
         chords: [
           ["G#m", "A"],
-          ["C#m", "Eb x2"],
+          ["C#m", "Eb"],
         ],
-      },
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [["E"], ["B", "Cdim", "C#m"], ["Cdim"], ["E"]],
       },
 
       {
@@ -3662,11 +3655,6 @@ export const songArray = [
           ["C#m", "A", "B", "B"],
           ["C#m", "A", "B", "B"],
         ],
-      },
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [["E"], ["B", "Cdim", "C#m"], ["Cdim"]],
       },
 
       {
@@ -3876,7 +3864,7 @@ export const songArray = [
 
   {
     songTitle: "Holiday",
-    artist: "Green Day (ALL Fm ARE HI OCTAVE)",
+    artist: "Green Day",
     setlistOrder: 44,
 
     chartMeta: {
@@ -3938,23 +3926,15 @@ export const songArray = [
           ["Fm", "Db", "Ab", "Eb", "C"],
         ],
       },
-      {
-        code: "C",
-        label: "CHORUS",
-        chords: [
-          ["Fm", "Db", "Ab", "Eb"],
-          ["Fm", "Db", "Ab", "C"],
-        ],
-      },
 
       {
         code: "B1",
         label: "BRIDGE",
         chords: [
-          ["Fm", "5 - 6", "Db", "Bb", "Eb", "C"],
-          ["Fm", "5 - 6", "Eb", "C", "Fm (Hi)"],
-          ["Fm", "5 - 6", "Db", "Bb", "Eb", "C"],
-          ["Fm", "5 - 6", "Eb", "C", "Fm (Hi)"],
+          ["Fm", "Ab", "Db", "Bb", "Eb", "C"],
+          ["Fm", "Ab", "Eb", "C", "Fm (Hi)"],
+          ["Fm", "Ab", "Db", "Bb", "Eb", "C"],
+          ["Fm", "Ab", "Eb", "C", "Fm (Hi)"],
         ],
       },
 
@@ -3971,10 +3951,10 @@ export const songArray = [
         label: "INTERLUDE",
         chords: [
           ["Play Muted"],
-          ["Fm", "5 - 6", "Db", "Bb", "Eb", "C"],
-          ["Fm", "5 - 6", "Eb", "C", "Fm (Hi)"],
-          ["Fm", "5 - 6", "Db", "Bb", "Eb", "C"],
-          ["Fm", "5 - 6", "Eb", "C", "Fm (Hi)"],
+          ["Fm", "Ab", "Db", "Bb", "Eb", "C"],
+          ["Fm", "Ab", "Eb", "C", "Fm (Hi)"],
+          ["Fm", "Ab", "Db", "Bb", "Eb", "C"],
+          ["Fm", "Ab", "Eb", "C", "Fm (Hi)"],
           ["C"],
         ],
       },

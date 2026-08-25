@@ -266,8 +266,8 @@ export const songArray = [
       },
 
       {
-        code: "PC",
-        label: "PRE-CHORUS",
+        code: "B1",
+        label: "BRIDGE",
         chords: [["7 9 11 14"], ["0 2 4 7"], ["9 11 9 7 9"]],
       },
 
@@ -309,7 +309,7 @@ export const songArray = [
 
       {
         code: "PRE2",
-        label: "PRE-CHORUS 2",
+        label: "BRIDGE",
         chords: [
           ["E", "A"],
           ["e", "a"],

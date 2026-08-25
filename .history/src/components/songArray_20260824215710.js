@@ -266,7 +266,7 @@ export const songArray = [
       },
 
       {
-        code: "PC",
+        code: "B1",
         label: "PRE-CHORUS",
         chords: [["7 9 11 14"], ["0 2 4 7"], ["9 11 9 7 9"]],
       },
